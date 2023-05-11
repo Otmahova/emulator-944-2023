@@ -1,0 +1,1 @@
+export type { IParam } from './IParam'

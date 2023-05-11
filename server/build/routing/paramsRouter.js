@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.paramsRouter = void 0;
+const express_1 = require("express");
+const controllers_1 = require("../controllers");
+exports.paramsRouter = (0, express_1.Router)();
+const paramsController = new controllers_1.ParamsController();
+exports.paramsRouter.post('/sync', paramsController.syncAll);
+exports.paramsRouter.get('/', paramsController.getAll);
+exports.paramsRouter.get('/:id', paramsController.getOne);
+exports.paramsRouter.put('/', paramsController.updateAll);

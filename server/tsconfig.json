@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "build",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "target": "es6",
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

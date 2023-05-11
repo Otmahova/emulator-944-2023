@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IAtrType = void 0;
+var IAtrType;
+(function (IAtrType) {
+    IAtrType[IAtrType["NONE"] = 0] = "NONE";
+    IAtrType[IAtrType["RESPONSE_LIST"] = 4] = "RESPONSE_LIST";
+    IAtrType[IAtrType["NULL"] = 5] = "NULL";
+    IAtrType[IAtrType["STRING"] = 22] = "STRING";
+    IAtrType[IAtrType["SEQUENCE"] = 48] = "SEQUENCE";
+    IAtrType[IAtrType["UNSIGNED_INT"] = 65] = "UNSIGNED_INT";
+    IAtrType[IAtrType["INT"] = 66] = "INT";
+    IAtrType[IAtrType["FLOAT"] = 67] = "FLOAT";
+    IAtrType[IAtrType["INT_FLOAT"] = 68] = "INT_FLOAT";
+    IAtrType[IAtrType["OPERATION_BD"] = 69] = "OPERATION_BD";
+    IAtrType[IAtrType["CONFIRMATION"] = 70] = "CONFIRMATION";
+    IAtrType[IAtrType["CURRENT_TIME"] = 71] = "CURRENT_TIME";
+    IAtrType[IAtrType["CURRENT_DATE"] = 72] = "CURRENT_DATE";
+    IAtrType[IAtrType["ARCHIVE_DATE"] = 73] = "ARCHIVE_DATE";
+    IAtrType[IAtrType["PARAM_NUM"] = 74] = "PARAM_NUM";
+    IAtrType[IAtrType["FLAGS"] = 75] = "FLAGS";
+    IAtrType[IAtrType["ERROR"] = 85] = "ERROR";
+})(IAtrType = exports.IAtrType || (exports.IAtrType = {}));

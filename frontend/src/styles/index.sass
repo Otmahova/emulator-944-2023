@@ -1,0 +1,43 @@
+*
+    margin: 0
+    padding: 0
+    font-family: Inter, sans-serif
+    box-sizing: border-box
+
+#root
+    display: flex
+    flex-direction: column
+    gap: .75rem
+    padding: 1.75rem 1rem
+    overflow-y: auto
+    min-height: 100vh
+
+.container
+    width: 100%
+    max-width: 48rem
+    min-width: 8rem
+    margin: 0 auto
+
+header
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    & h1
+        font-size: 1.75rem
+    & div
+        display: flex
+        align-items: center
+        gap: .5rem
+        & button
+            cursor: pointer
+            padding: .2rem .4rem
+            background: #145ee1
+            color: #FFFFFF
+            border-radius: .3rem
+            border: 0
+            outline: 0
+main
+    display: flex
+    flex-direction: column
+    gap: .5rem
